@@ -354,6 +354,13 @@ h4 {
     font-size: 56px;
     background-color: rgba(255, 255, 255, 0.25);
 }
+
+@media (max-width: 600px) {
+    .welcome__text {
+        font-size: 48px;
+    }
+}
+
 .welcome__buttons {
     align-self: center;
     z-index: 2;
@@ -364,7 +371,7 @@ h4 {
     width: 192px;
     height: 52px;
     font-size: 17px;
-    background-color: rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.7);
 }
 .welcome__image {
     position: absolute;
@@ -374,6 +381,18 @@ h4 {
     left: 0;
     object-fit: cover;
     opacity: 0.95;
+}
+
+@media (max-width: 600px) {
+    .welcome__image img {
+        object-position: -600px 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .welcome__image img {
+        object-position: -730px 0;
+    }
 }
 
 /* ---INFO-PAGE-------------------------------------------------- */
