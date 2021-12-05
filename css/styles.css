@@ -95,6 +95,12 @@ body {
     background-color: rgba(226, 112, 6, 0.05);
 }
 
+.template__button:hover {
+    background-color: var(--sub_c);
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
 ._ibg {
     position: relative;
 }
